@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PortadaComponent } from './portada/portada.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { PostComponent } from './post/post.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PortadaComponent,
+    NavbarComponent,
+    PostComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
